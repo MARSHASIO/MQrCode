@@ -1,7 +1,7 @@
 {
   "configVersion": 1,
-  "timestamp": 1647230221354,
-  "index": "/MQrCode/index.html",
+  "timestamp": 1647231218551,
+  "index": "/Mqrcode/index.html",
   "assetGroups": [
     {
       "name": "app",
@@ -11,13 +11,13 @@
         "ignoreVary": true
       },
       "urls": [
-        "/MQrCode/favicon.ico",
-        "/MQrCode/index.html",
-        "/MQrCode/main.c3de952f4f48b327.js",
-        "/MQrCode/manifest.webmanifest",
-        "/MQrCode/polyfills.ccbc88f9978220d3.js",
-        "/MQrCode/runtime.cf410f41543d38cc.js",
-        "/MQrCode/styles.ef46db3751d8e999.css"
+        "/Mqrcode/favicon.ico",
+        "/Mqrcode/index.html",
+        "/Mqrcode/main.c3de952f4f48b327.js",
+        "/Mqrcode/manifest.webmanifest",
+        "/Mqrcode/polyfills.ccbc88f9978220d3.js",
+        "/Mqrcode/runtime.cf410f41543d38cc.js",
+        "/Mqrcode/styles.ef46db3751d8e999.css"
       ],
       "patterns": []
     },
@@ -29,21 +29,21 @@
         "ignoreVary": true
       },
       "urls": [
-        "/MQrCode/assets/icons/icon.png"
+        "/Mqrcode/assets/icons/icon.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "/MQrCode/assets/icons/icon.png": "8abba68f875e31e49cd445a34e4e9e5cff4136bb",
-    "/MQrCode/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/MQrCode/index.html": "757dc0491c9abc09dcc7aedcba024c5de8ce7474",
-    "/MQrCode/main.c3de952f4f48b327.js": "46a1a272f12dd82dca47b800573e4369b846e073",
-    "/MQrCode/manifest.webmanifest": "87744e3f3e57aa0ae7106909cdca29a663d7d266",
-    "/MQrCode/polyfills.ccbc88f9978220d3.js": "e3c30498c1dc2f44d445261bd701eb351e45b1b7",
-    "/MQrCode/runtime.cf410f41543d38cc.js": "70d7176aca7cc0d603565579fb7cb0333443edbc",
-    "/MQrCode/styles.ef46db3751d8e999.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    "/Mqrcode/assets/icons/icon.png": "8abba68f875e31e49cd445a34e4e9e5cff4136bb",
+    "/Mqrcode/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/Mqrcode/index.html": "12c6ab1acbea78cabde1eb6b41d8d11694a58e2d",
+    "/Mqrcode/main.c3de952f4f48b327.js": "46a1a272f12dd82dca47b800573e4369b846e073",
+    "/Mqrcode/manifest.webmanifest": "8d01fe6f93e06790616d33144c484f6f7a4c74c3",
+    "/Mqrcode/polyfills.ccbc88f9978220d3.js": "e3c30498c1dc2f44d445261bd701eb351e45b1b7",
+    "/Mqrcode/runtime.cf410f41543d38cc.js": "70d7176aca7cc0d603565579fb7cb0333443edbc",
+    "/Mqrcode/styles.ef46db3751d8e999.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
   },
   "navigationUrls": [
     {
