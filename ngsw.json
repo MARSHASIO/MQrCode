@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1647233528098,
+  "timestamp": 1647237129499,
   "index": "/MQrCode/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/MQrCode/favicon.ico",
         "/MQrCode/index.html",
-        "/MQrCode/main.77980a0a8f0d2b52.js",
+        "/MQrCode/main.b7e93429d8009e67.js",
         "/MQrCode/manifest.webmanifest",
         "/MQrCode/polyfills.ccbc88f9978220d3.js",
         "/MQrCode/runtime.cf410f41543d38cc.js",
@@ -29,9 +29,11 @@
         "ignoreVary": true
       },
       "urls": [
+        "/MQrCode/assets/icons/icon-128x128.png",
         "/MQrCode/assets/icons/icon-144x144.png",
         "/MQrCode/assets/icons/icon-192x192.png",
         "/MQrCode/assets/icons/icon-48x48.png",
+        "/MQrCode/assets/icons/icon-512x512.png",
         "/MQrCode/assets/icons/icon-96x96.png"
       ],
       "patterns": []
@@ -39,14 +41,16 @@
   ],
   "dataGroups": [],
   "hashTable": {
+    "/MQrCode/assets/icons/icon-128x128.png": "6a815034e8904355a1b479a38de90fd7a6b75d70",
     "/MQrCode/assets/icons/icon-144x144.png": "ee3342cf9eb153aaf7b7b9edf6a555fb3e46d5d6",
     "/MQrCode/assets/icons/icon-192x192.png": "c8ab9f874986a216690cb6d19c49fba3d837a485",
-    "/MQrCode/assets/icons/icon-48x48.png": "9154222bc94992fa8145401f6c05ddea63512b82",
+    "/MQrCode/assets/icons/icon-48x48.png": "75c80032eefa0fc799621116a10900a104543615",
+    "/MQrCode/assets/icons/icon-512x512.png": "8bb186eade245d95542a5be7b317dbf848f02bc1",
     "/MQrCode/assets/icons/icon-96x96.png": "8abba68f875e31e49cd445a34e4e9e5cff4136bb",
     "/MQrCode/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/MQrCode/index.html": "cfc8ae42badd4e63e4a5f8d38fdb5d92da09bce6",
-    "/MQrCode/main.77980a0a8f0d2b52.js": "5b3a75cc6b1b88c6f7e611ea044b892df9010e81",
-    "/MQrCode/manifest.webmanifest": "981a829336fc7e760a5ec7277ce76183046b6055",
+    "/MQrCode/index.html": "74e833ee71f7eda45b79b1cd9ed3d53b472bca24",
+    "/MQrCode/main.b7e93429d8009e67.js": "4bceaacdec290e15d10cd584db94c4461d39475f",
+    "/MQrCode/manifest.webmanifest": "65c5ea3b4b97b6e0a42239d93fb988615e1e14f2",
     "/MQrCode/polyfills.ccbc88f9978220d3.js": "e3c30498c1dc2f44d445261bd701eb351e45b1b7",
     "/MQrCode/runtime.cf410f41543d38cc.js": "70d7176aca7cc0d603565579fb7cb0333443edbc",
     "/MQrCode/styles.ef46db3751d8e999.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
