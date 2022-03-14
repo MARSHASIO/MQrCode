@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1647233438064,
+  "timestamp": 1647233528098,
   "index": "/MQrCode/index.html",
   "assetGroups": [
     {
@@ -46,7 +46,7 @@
     "/MQrCode/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
     "/MQrCode/index.html": "cfc8ae42badd4e63e4a5f8d38fdb5d92da09bce6",
     "/MQrCode/main.77980a0a8f0d2b52.js": "5b3a75cc6b1b88c6f7e611ea044b892df9010e81",
-    "/MQrCode/manifest.webmanifest": "230e4b6803657a5b65e76e894ba95cb777f4119b",
+    "/MQrCode/manifest.webmanifest": "981a829336fc7e760a5ec7277ce76183046b6055",
     "/MQrCode/polyfills.ccbc88f9978220d3.js": "e3c30498c1dc2f44d445261bd701eb351e45b1b7",
     "/MQrCode/runtime.cf410f41543d38cc.js": "70d7176aca7cc0d603565579fb7cb0333443edbc",
     "/MQrCode/styles.ef46db3751d8e999.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
