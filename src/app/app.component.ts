@@ -20,6 +20,7 @@ export class AppComponent {
     this.disshow = true;
     this.is1922 = true;
   }
+
   onChange() {
     this.is1922 = !this.is1922;
   }
@@ -54,12 +55,5 @@ export class AppComponent {
       this.content = $event;
     }
   }
-
-  onCamerasNotFound() {
-    alert('無相機');
-  }
-
-
-
 
 }

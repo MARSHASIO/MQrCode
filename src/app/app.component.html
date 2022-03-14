@@ -9,7 +9,7 @@
         <label for="chk1922">只允許傳送1922簡訊</label>
       </div>
       <div class="item" *ngIf="!isclose">
-        <zxing-scanner (scanSuccess)="onCodeResult($event)" (camerasNotFound)="onCamerasNotFound()">
+        <zxing-scanner (scanSuccess)="onCodeResult($event)">
         </zxing-scanner>
       </div>
     </div>
