@@ -12,14 +12,18 @@
         <zxing-scanner (scanSuccess)="onCodeResult($event)" (camerasNotFound)="onCamerasNotFound()">
         </zxing-scanner>
       </div>
-      <div class="btngroup">
-        <div class="btn btn-succdess" (click)="isclose=!isclose" *ngIf="isclose">
-          開啟掃描
-        </div>
-        <div class="btn btn-danger" (click)="isclose=!isclose" *ngIf="!isclose">
-          關閉掃描
-        </div>
-      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="footer">
+  <div class="btngroup">
+    <div class="btn btn-succdess" (click)="isclose=!isclose" *ngIf="isclose">
+      開啟掃描
+    </div>
+    <div class="btn btn-danger" (click)="isclose=!isclose" *ngIf="!isclose">
+      關閉掃描
     </div>
   </div>
 </div>
