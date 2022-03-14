@@ -38,9 +38,7 @@ export class AppComponent {
             this.is1922Btn = this.recipient == '1922';
           } else {
             this.is1922Btn = true;
-
           }
-
 
           this.content = strs[2];
           this.data = `sms:+${strs[1]};?&body=${strs[2]}`;
