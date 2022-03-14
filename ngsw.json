@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1647233221836,
+  "timestamp": 1647233438064,
   "index": "/MQrCode/index.html",
   "assetGroups": [
     {
@@ -29,7 +29,7 @@
         "ignoreVary": true
       },
       "urls": [
-        "/MQrCode/assets/icons/icon-144x1144.png",
+        "/MQrCode/assets/icons/icon-144x144.png",
         "/MQrCode/assets/icons/icon-192x192.png",
         "/MQrCode/assets/icons/icon-48x48.png",
         "/MQrCode/assets/icons/icon-96x96.png"
@@ -39,12 +39,12 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/MQrCode/assets/icons/icon-144x1144.png": "ee3342cf9eb153aaf7b7b9edf6a555fb3e46d5d6",
+    "/MQrCode/assets/icons/icon-144x144.png": "ee3342cf9eb153aaf7b7b9edf6a555fb3e46d5d6",
     "/MQrCode/assets/icons/icon-192x192.png": "c8ab9f874986a216690cb6d19c49fba3d837a485",
     "/MQrCode/assets/icons/icon-48x48.png": "9154222bc94992fa8145401f6c05ddea63512b82",
     "/MQrCode/assets/icons/icon-96x96.png": "8abba68f875e31e49cd445a34e4e9e5cff4136bb",
     "/MQrCode/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/MQrCode/index.html": "8e87efdea701065d18035455ed2f8d9b3f413fad",
+    "/MQrCode/index.html": "cfc8ae42badd4e63e4a5f8d38fdb5d92da09bce6",
     "/MQrCode/main.77980a0a8f0d2b52.js": "5b3a75cc6b1b88c6f7e611ea044b892df9010e81",
     "/MQrCode/manifest.webmanifest": "230e4b6803657a5b65e76e894ba95cb777f4119b",
     "/MQrCode/polyfills.ccbc88f9978220d3.js": "e3c30498c1dc2f44d445261bd701eb351e45b1b7",
