@@ -26,20 +26,15 @@ export class AppComponent {
   }
 
   onCodeResult($event: string) {
+    this.is1922Btn = false;
 
     if ($event.toUpperCase().startsWith("SMSTO")) {
       if (this.disshow) {
         try {
           var strs = $event.split(':');
 
-
           this.recipient = strs[1];
-          if (this.is1922) {
-            this.is1922Btn = this.recipient == '1922';
-          } else {
-            this.is1922Btn = true;
-          }
-
+          this.is1922Btn = this.is1922 ? this.recipient == '1922' : true;
           this.content = strs[2];
           this.data = `sms:+${strs[1]};?&body=${strs[2]}`;
           this.disshow = !this.disshow;
@@ -50,6 +45,7 @@ export class AppComponent {
       }
     }
     else {
+      this.disshow = !this.disshow;
       this.content = $event;
     }
   }
