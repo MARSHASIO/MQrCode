@@ -3,6 +3,7 @@
     <div class="wrap">
       <div class="item">
         <h1>QrCode Screen</h1>
+        <h3>{{version}}</h3>
       </div>
       <div class="item">
         <input type="checkbox" id="chk1922" [checked]="is1922" (change)="onChange()">
@@ -39,7 +40,7 @@
         發送
       </div>
     </a>
-    <div class="item btn btn-danger" (click)="disshow=!disshow">
+    <div class="item btn btn-danger" (click)="Rescreen()">
       掃描
     </div>
   </div>

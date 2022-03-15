@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  version!: string;
   title = 'MQrCode';
   recipient!: string;
   content !: string;
@@ -17,8 +18,11 @@ export class AppComponent {
 
 
   constructor() {
+    this.version = 'v1.0';
     this.disshow = true;
     this.is1922 = true;
+    this.content = '';
+    this.is1922Btn = false;
   }
 
   onChange() {
@@ -26,7 +30,8 @@ export class AppComponent {
   }
 
   onCodeResult($event: string) {
-    this.is1922Btn = false;
+    if (this.content.length > 0)
+      return;
 
     if ($event.toUpperCase().startsWith("SMSTO")) {
       if (this.disshow) {
@@ -48,6 +53,14 @@ export class AppComponent {
       this.disshow = !this.disshow;
       this.content = $event;
     }
+  }
+
+  Rescreen() {
+    this.is1922Btn = false;
+    this.disshow = !this.disshow;
+    this.recipient = '';
+    this.data = '';
+    this.content = '';
   }
 
 }
