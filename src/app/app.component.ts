@@ -18,7 +18,7 @@ export class AppComponent {
 
 
   constructor() {
-    this.version = 'v1.0';
+    this.version = 'v1.2';
     this.disshow = true;
     this.is1922 = true;
     this.content = '';
@@ -56,6 +56,7 @@ export class AppComponent {
   }
 
   Rescreen() {
+    this.isclose = !this.isclose;
     this.is1922Btn = false;
     this.disshow = !this.disshow;
     this.recipient = '';
